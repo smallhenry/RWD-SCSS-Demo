@@ -1,0 +1,26 @@
+
+.wrap{
+    max-width: 800px;  /*視窗大小調整 直至500為最大寬度，不在異動*/
+    margin: 0 auto;        
+}
+
+.menu{
+    width:200px;    /*固定選單功能表*/
+    float: left;
+    color: bule;
+    padding-top: 10px;    
+    background-color: #000000;
+}
+
+.menu li{  
+    list-style: none;    
+    margin-bottom: 20px;
+    color: #ffffff;    
+}
+
+.content{        
+    margin-left:200px; /*固定是200px因此要設定*/
+    background-color: orange;
+    color:#ffffff;
+    
+}
